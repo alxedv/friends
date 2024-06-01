@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(69, 68, 68) !important;
+  color: white !important;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.char-img {
+  transition: 0.2s;
+}
+
+.char-img:hover {
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+
+.img-gallery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .img-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}
